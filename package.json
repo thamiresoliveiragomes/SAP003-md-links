@@ -1,0 +1,29 @@
+{
+  "name": "md-links",
+  "version": "1.0.0",
+  "description": "## Índice",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "eslint": "eslint --ext .js lib/",
+    "pretest": "npm run eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thamiresoliveiragomes/SAP003-md-links.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thamiresoliveiragomes/SAP003-md-links/issues"
+  },
+  "homepage": "https://github.com/thamiresoliveiragomes/SAP003-md-links#readme",
+  "bin": {
+    "md-links": "cli.js"
+  },
+  "devDependencies": {
+    "eslint": "^6.7.1",
+    "jest": "^24.9.0",
+    "test": "^0.6.0"
+  }
+}
